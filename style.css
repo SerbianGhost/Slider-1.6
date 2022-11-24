@@ -1,0 +1,82 @@
+body{
+   font-weight: 900;
+   font-size: 20px;
+}
+.slider-container {
+   margin-top: 30px;
+}
+.slider {
+display: flex;
+}
+.slider-box{
+   border: 2px solid black;
+   width: 256px;
+   height: 256px;
+   overflow: hidden;
+}
+.button {
+   z-index: 50;
+   cursor: pointer;
+}
+.prev {
+}
+.slider-line {
+   height: 256px;
+   display: inline-flex;
+}
+.slider-item {
+   width: 256px;
+   height: 256px;
+   background-color: gray;
+   display: flex;
+   align-items: center;
+   transition: all ease 1s;
+   position: relative;
+   left: 0;
+}
+.square {
+   width: 128px;
+   height: 128px;
+   margin: 0 auto;
+}
+.red {
+   background-color: red;
+}
+.green {
+   background-color: green;
+}
+.blue {
+   background-color: blue;
+}
+.black {
+   background-color: black;
+}
+.white {
+   background-color: white;
+}
+.purple{
+   background-color: purple;
+}
+.yellow{
+   background-color: yellow;
+}
+.pink{
+   background-color: pink;
+}
+.orange{
+   background-color: orange;
+}
+.brown{
+   background-color: brown;
+}
+.aqua{
+   background-color: aqua;
+}
+.next {
+}
+.toggle{
+   margin-top: 30px;
+}
+.visible{
+   overflow: visible;
+}
